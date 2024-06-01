@@ -1,0 +1,6 @@
+def generate_github_code():
+    import random
+    letters = 'abcdefghijklmnopqrstuvwxyz0123456789'
+    return ''.join(random.choice(letters) for i in range(10))
+
+print(generate_github_code())
